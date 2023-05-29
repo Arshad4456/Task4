@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Registration Form</title>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f4f4f4;
+        }
+
+        .container{
+            max-width: 600px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 05px;
+            box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.1);
+        }
+
+        .form-group label {
+      font-weight: bold;
+    }
+    </style>
+</head>
+
+<body>
+   
+   <div class="container">
+    
+    <form>
+       
+        <p><h3><center>REGISTRATION FORM</center></h3></p>
+
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter Your Name">
+        </div>
+
+        <div class="form-group">
+            <label for="Email">Email</label>
+            <input type="email" class="form-control" name="useremail" value="" placeholder="example123@gmail.com">
+        </div>
+
+        <div class="form-group">
+            <label>Password</label>
+            <input type="password" class="form-control" name="userpassword" value="" placeholder="Enter Your Password">
+        </div>
+
+        <div class="form-group">
+            <label for="Contact Number">Phone Number</label>
+            <input type="number" class="form-control" placeholder="Enter Your Phone Number">
+        </div>
+
+        <div class="form-group">
+            <label for="Gender">Gender: </label><br>
+                <input type="radio" name="Male"> <label for="Gender"> Male </label>
+                <input type="radio" name="Female"> <label for="Gender"> Female </label> 
+                <input type="radio" name="Others"> <label for="Gender"> Others </label> 
+        </div>
+
+    <div class="form-group">
+        <label for="subjects">Choose Your Favourite Subjects: </label> <br>
+            <input type="checkbox" name="subjects" value="" id="English">        
+            <label for="English">English</label>
+            <input type="checkbox" name="subjects" value="" id="Urdu">
+            <label for="Urdu">Urdu</label>
+            <input type="checkbox" name="subjects" value="" id="Computer Science">
+            <label for="Computer Science">Computer Science</label>
+            <input type="checkbox" name="subjects" value="" id="Biology">        
+            <label for="Biology">Biology</label>
+    </div>
+   
+    <div class="form-group">
+        <label>Nationality: </label>  <br>
+            <label>  <select class="form-group">
+                <option>Pakistan</option>
+                <option>Saudi Arabia</option>
+                <option>UAE</option>
+            </label>
+            </select>
+    </div>
+   
+    <div class="form-group"> 
+        <label for="Feedback">Feedback </label><br>
+        <input type="Feedback" class="form-control" name="" placeholder="Enter Your Feedback(Optional)"  id="" cols="30" rows="05">
+    </div>
+   
+    <div class="form-group">
+        <button type="Submit" class="btn btn-primary">Submit </button> 
+        <button type="reset" class="btn btn-primary"> Reset</button>
+    </div>
+
+    </form>
+   </div>
+   
+</body>
+</html>
